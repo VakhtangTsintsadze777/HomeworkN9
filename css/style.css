@@ -18,6 +18,7 @@ header {
 .logodiv {
     display: flex;
 }
+
 .logodesc {
     display: flex;
     font-family: Pridi;
@@ -46,25 +47,41 @@ li a {
     margin-right: 32px;
 }
 
+
+
 .cover {
     display: flex;
+    width: 100%;
     margin: auto;
+    position: relative;
+}
+
+.coverdiv {
+    max-width: min(1180px, 100%);
+    margin: auto;
+    display: flex;
 }
 
 
 .article1 {
-    position: relative;
-    bottom: calc(179px + 186px);
-    display: flex;
-    margin: auto;
-    /* border: 4px solid red; */
     max-width: min(1180px, 100%);
-    /* width: 1180px; */
-    /* height: 179px; */
+    position: absolute;
+    /* bottom: calc(179px + 186px); */
+    top: 180px;
+
+    /* border: 5px solid #FA793C; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+   
+    
 }
 
 .article_h2 {
-    left: 431px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
     position: absolute;
     font-family: Kanit;
     font-size: 50px;
@@ -77,6 +94,8 @@ li a {
 }
 
 .article_p {
+    
+    display: flex;
     margin-top: 92px;
     font-family: Kanit;
     font-size: 20px;
